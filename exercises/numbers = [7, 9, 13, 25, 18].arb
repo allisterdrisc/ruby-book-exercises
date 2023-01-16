@@ -1,0 +1,12 @@
+choice = nil
+puts 'How many times do you want to print? Please choose a minimum of 3.'
+choice = gets.chomp.to_i
+if choice >= 3
+  loop do
+    choice.times puts "Launch School is the best!"
+  end
+else  
+  puts "Please put a number that is 3 or higher"
+end
+
+
